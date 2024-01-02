@@ -19,17 +19,17 @@ const HeroContent = () => {
     >
          <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="md:w-[50%] w-full h-full flex justify-center items-center mt-16 md:mr-32"
       >
         <Image
-          src="/devnoverse.png"
+          src="/dev.svg"
           alt="work icons"
           height={350}
           width={350}
           
         />
       </motion.div>
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="h-full md:w-[70%] w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
@@ -42,7 +42,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-3 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-5 text-6xl font-bold text-white md:w-[130%] max-w-[800px]"
         >
           <span>
           Founder of
@@ -56,7 +56,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-gray-400 my-5 max-w-[800px] "
         >
             As the founder of Devnoverse, I established a dynamic website development service.
             Devnoverse specializes in crafting high-quality, tailored websites that seamlessly fuse innovation with functionality.
@@ -64,12 +64,21 @@ const HeroContent = () => {
             Devnoverse's commitment to excellence continues to redefine standards in the digital realm,
             positioning us as a trusted partner for businesses seeking unparalleled web development expertise.
         </motion.p>
+        <div>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="px-6 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] mr-4"
         >
           Contact Email
         </motion.a>
+        <motion.a
+          variants={slideInFromRight(1)}
+          className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        >
+          Explore More
+        </motion.a>
+        </div>
+       
       </div>
 
      
