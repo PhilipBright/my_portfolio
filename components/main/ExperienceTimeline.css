@@ -1,0 +1,52 @@
+.timeline-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #000; /* Change this to your desired color */
+  margin-left: -1px;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f0f0f0; /* Change this to your desired color */
+  margin: 20px 0;
+  opacity: 0;
+  position: absolute;
+  width: calc(50% - 10px);
+  top: 50%;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: white; /* Set this to the desired color, e.g., white */
+  margin-left: -1px;
+}
+
+
