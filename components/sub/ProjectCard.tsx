@@ -27,7 +27,7 @@ const ProjectCard = ({ src, title, description, technologies }: Props) => {
         {technologies.map((tech, index) => (
           <button
             key={index}
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-2"
+            className=" bg-purple-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mt-2 mr-2"
           >
             {tech}
           </button>
