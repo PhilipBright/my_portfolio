@@ -11,24 +11,24 @@ const Projects = () => {
         <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
           My Projects
         </h1>
-        <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+        <div className="h-full w-full flex flex-col md:flex-row gap-5 px-8">
           <ProjectCard
               src="/ainu.png"
-              title="Modern Next.js Portfolio"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              title="Ainu-Sushi Kriftel"
+              description="The Ainu-Sushi Kriftel, an e-commerce platform dedicated to sushi and Asian cuisine. It allows users to create accounts, place food orders, and select between COD or Pick-up options, ensuring a smooth and convenient experience."
               technologies={["PHP", "Laravel", "MySQL", "Tailwind", ]}
           />
           <ProjectCard
               src="/chillflix.png"
-              title="Interactive Website Cards"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              technologies={["React", "Next.js", "TypeScript"]}
+              title="ChillFlix"
+              description="ChillFlix is a movie streaming platform where users can easily create accounts with their desired subscription plans. Additionally, users have the option to add movies to their favorites, enhancing their personalized viewing experience."
+              technologies={["React", "Redux","Express","MongoDB", "Javascript", "Tailwind",  ]}
           />
           <ProjectCard
               src="/notion.png"
               title="Space Themed Website"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              technologies={["React", "Next.js", "TypeScript"]}
+              description="Ainu-Sushi Kriftel, an e-commerce platform dedicated to sushi and Asian cuisine. It allows users to create accounts, place food orders, and select between COD or Pick-up options, ensuring a smooth and convenient experience."
+              technologies={["Prisma", "Next.js", "TypeScript", "Supabase", "Tailwind", "Zod" ]}
           />
 
         </div>
@@ -59,24 +59,24 @@ const Projects = () => {
           </div></div>
          
         </div>
-        <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+        <div className="h-full w-full flex flex-col md:flex-row gap-5 px-8">
           <ProjectCard
               src="/organization.png"
               title="Modern Next.js Portfolio"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              technologies={["React", "Next.js", "TypeScript"]}
+              description="Devnoverse's website stands as a comprehensive showcase of our commitment to innovative web solutions serves as a testament to our client-centric approach and technological prowess."
+              technologies={["Tailwind", "Next.js", "TypeScript"]}
           />
           <ProjectCard
               src="/myway.png"
               title="Interactive Website Cards"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              technologies={["React", "Next.js", "TypeScript"]}
+              description="My Way Travel & Tour's website is your one-stop destination for travel needs. Offering flight and bus tickets alongside hotel bookings for every country with convenience and reliability."
+              technologies={["Next.js", "TypeScript", "Bootstrap", "SCSS", "Redux", "MongoDB", "Prisma"]}
           />
           <ProjectCard
-              src="/e-commerce.png"
+              src="/ecommerce.jpeg"
               title="Space Themed Website"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              technologies={["React", "Next.js", "TypeScript"]}
+              description="Smart Life's website is a comprehensive platform catering to the diverse needs of modern living. Our extensive catalog offers an array of innovative and intelligent products"
+              technologies={["PHP", "MySQL", "Tailwind"]}
           />
 
         </div>

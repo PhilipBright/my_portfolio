@@ -49,9 +49,12 @@ const ExperienceTimeline = () => {
   };
 
   return (
-    <div className='w-full h-full flex flex-col justify-center items-center mt-20'>
+    <div className='w-full h-full flex flex-col justify-center items-center mt-48'>
       <div>
-        <h1 className=' text-white text-6xl font-bold mb-16'>Work Experience</h1>
+        <h1 className=' text-white text-6xl font-bold mb-16'>Work <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              {" "}
+              Experience{" "}
+            </span></h1>
       </div>
     <div className="space-y-8 w-[70%]  items-center relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
       <div ref={ref1}>
@@ -96,7 +99,7 @@ const ExperienceTimeline = () => {
     <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[#1d1836] p-4 rounded border border-slate-200 shadow z-20">
         <div className="flex items-center justify-between space-x-2 mb-1">
         <div className="font-bold md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"><Link href='https://ainu-sushi-kriftel.com/'>Ainu-Sushi Kriftel</Link></div>
-            <time className="font-caveat font-medium text-green-300">June 2023</time>
+            <time className="font-caveat font-medium text-green-300">January 2023</time>
         </div>
         <div className='text-white font-bold'>
           <h1>Full-Stack Developer</h1>
@@ -148,7 +151,7 @@ const ExperienceTimeline = () => {
     <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[#1d1836] p-4 rounded border border-slate-200 shadow">
         <div className="flex items-center justify-between space-x-2 mb-1">
         <div className="font-bold md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Devnoverse</div>
-            <time className="font-caveat font-medium text-green-300">2023</time>
+            <time className="font-caveat font-medium text-green-300">December 2023</time>
         </div>
         <div className='text-white font-bold'>
           <h1>Full-Stack Developer</h1>
