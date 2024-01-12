@@ -62,19 +62,19 @@ const Projects = () => {
         <div className="h-full w-full flex flex-col md:flex-row gap-5 px-8">
           <ProjectCard
               src="/organization.png"
-              title="Modern Next.js Portfolio"
+              title="Devnoverse"
               description="Devnoverse's website stands as a comprehensive showcase of our commitment to innovative web solutions serves as a testament to our client-centric approach and technological prowess."
               technologies={["Tailwind", "Next.js", "TypeScript"]}
           />
           <ProjectCard
               src="/myway.png"
-              title="Interactive Website Cards"
+              title="My Way Travel & Tour"
               description="My Way Travel & Tour's website is your one-stop destination for travel needs. Offering flight and bus tickets alongside hotel bookings for every country with convenience and reliability."
               technologies={["Next.js", "TypeScript", "Bootstrap", "SCSS", "Redux", "MongoDB", "Prisma"]}
           />
           <ProjectCard
               src="/ecommerce.jpeg"
-              title="Space Themed Website"
+              title="Smart Life"
               description="Smart Life's website is a comprehensive platform catering to the diverse needs of modern living. Our extensive catalog offers an array of innovative and intelligent products"
               technologies={["PHP", "MySQL", "Tailwind"]}
           />
