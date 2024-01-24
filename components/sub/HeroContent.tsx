@@ -46,7 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I am a web developer based in Myanmar. I am very interested in full-stack Development, artificial intelligence and everything in between. If you need any project, just contact me and I would love to make it for you.
+          I am a web developer graduated from Edinburgh Napier Unviersity of UK. I am very interested in full-stack Development, artificial intelligence and everything in between. If you need any project, just contact me and I would love to make it for you.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
