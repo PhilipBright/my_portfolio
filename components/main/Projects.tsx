@@ -35,26 +35,32 @@ const Projects = () => {
         <div className="h-full w-full">
           <div className=" flex flex-col gap-5 md:flex-row m-10 px-8 py-4 border border-[#2A0E61] rounded-lg"> 
           <div>
-            <Image src="/mobile1.png" alt="mobile app" width="200" height='100' className="rounded-lg" />
+            <Image src="/mobile1.png" alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
+ />
           </div>
           <div>
-          <Image src="/mobile2.png" alt="mobile app" width="200" height='100' className="rounded-lg" />
+          <Image src="/mobile2.png" alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
+ />
 
           </div>
           <div>
-          <Image src="/mobile3.png" alt="mobile app" width="200" height='100' className="rounded-lg" />
+          <Image src="/mobile3.png" alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
+ />
 
           </div>
           <div>
-          <Image src="/mobile4.png" alt="mobile app" width="200" height='100' className="rounded-lg" />
+          <Image src="/mobile4.png" alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
+ />
 
           </div>
           <div>
-          <Image src="/mobile5.png" alt="mobile app" width="200" height='100' className="rounded-lg" />
+          <Image src="/mobile5.png" alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
+ />
 
           </div>
           <div>
-          <Image src="/mobile6.png" alt="mobile app" width="200" height='100' className="rounded-lg" />
+          <Image src="/mobile6.png" alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
+ />
 
           </div></div>
          
