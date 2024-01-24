@@ -1,12 +1,12 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 import Image from "next/image";
-import mobile1 from '@/public/mobile1.png'
-import mobile2 from '@/public/mobile2.png'
-import mobile3 from '@/public/mobile3.png'
-import mobile4 from '@/public/mobile4.png'
-import mobile5 from '@/public/mobile5.png'
-import mobile6 from '@/public/mobile6.png'
+import mobile1 from './mobile1.png'
+import mobile2 from './mobile2.png'
+import mobile3 from './mobile3.png'
+import mobile4 from './mobile4.png'
+import mobile5 from './mobile5.png'
+import mobile6 from './mobile6.png'
 const Projects = () => {
   return (
       <div
