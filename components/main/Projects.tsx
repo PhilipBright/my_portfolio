@@ -1,7 +1,12 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 import Image from "next/image";
-
+import mobile1 from '../../public/mobile1.png'
+import mobile2 from '../../public/mobile2.png'
+import mobile3 from '../../public/mobile3.png'
+import mobile4 from '../../public/mobile4.png'
+import mobile5 from '../../public/mobile5.png'
+import mobile6 from '../../public/mobile6.png'
 const Projects = () => {
   return (
       <div
@@ -35,31 +40,31 @@ const Projects = () => {
         <div className="h-full w-full">
           <div className=" flex flex-col gap-5 md:flex-row m-10 px-8 py-4 border border-[#2A0E61] rounded-lg"> 
           <div>
-            <Image src="/mobile1.png" alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
+            <Image src={mobile1} alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
  />
           </div>
           <div>
-          <Image src="/mobile2.png" alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
- />
-
-          </div>
-          <div>
-          <Image src="/mobile3.png" alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
+          <Image src={mobile2} alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
  />
 
           </div>
           <div>
-          <Image src="/mobile4.png" alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
+          <Image src={mobile3} alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
  />
 
           </div>
           <div>
-          <Image src="/mobile5.png" alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
+          <Image src={mobile4} alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
  />
 
           </div>
           <div>
-          <Image src="/mobile6.png" alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
+          <Image src={mobile5} alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
+ />
+
+          </div>
+          <div>
+          <Image src={mobile6} alt="mobile app" width="200" height='100' className="rounded-lg" loading="eager"
  />
 
           </div></div>
