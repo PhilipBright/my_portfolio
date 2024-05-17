@@ -20,10 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-       <Head>
+       <head>
         <meta name="google-site-verification" content="VQ_R_ltEuHQiKqSJdY3PO2KBNpwMyKxgOxEoWjh9L64" />
 
-      </Head>
+      </head>
       <body
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
