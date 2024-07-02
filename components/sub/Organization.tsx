@@ -74,6 +74,7 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromRight(1)}
           className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href="https://devnoverse.vercel.app/"
         >
           Explore More
         </motion.a>
