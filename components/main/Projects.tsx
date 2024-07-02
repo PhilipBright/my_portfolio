@@ -17,7 +17,7 @@ const Projects = () => {
         <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
           My Projects
         </h1>
-        <div className="h-full w-full flex flex-col md:flex-row gap-5 px-8 z-50">
+        <div className="h-full w-full flex flex-col md:flex-row gap-5 px-8 z-40">
           <ProjectCard
               src="/ainu.png"
               title="Ainu-Sushi Kriftel"
@@ -62,7 +62,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="h-full w-full flex flex-col md:flex-row gap-5 px-8">
+        <div className="h-full w-full flex flex-col md:flex-row gap-5 px-8 z-40">
           <ProjectCard
               src="/organization.png"
               title="Devnoverse"
@@ -75,7 +75,7 @@ const Projects = () => {
               title="My Way Travel & Tour"
               description="My Way Travel & Tour's website is your one-stop destination for travel needs. Offering flight and bus tickets alongside hotel bookings for every country with convenience and reliability."
               technologies={["Next.js", "TypeScript", "Bootstrap", "SCSS", "Redux", "MongoDB", "Prisma"]}
-              href="https://www.mywaymm.com/en/home/flight/modern"
+              href="https://www.mywaymm.com/"
           />
           {/* <ProjectCard
               src="/ecommerce.jpeg"
@@ -91,6 +91,38 @@ const Projects = () => {
               technologies={["React.js", "Three.js", "Tailwind", "GSAP"]}
               href="https://apple-website-two-smoky.vercel.app/"
           />
+          {/* https://video-conference-app-orcin.vercel.app/ */}
+        </div>
+        <div className="h-full w-full flex flex-col md:flex-row gap-5 pt-8 px-8 z-40">
+          <ProjectCard
+              src="/conference.png"
+              title="Conference Room"
+              description="The video conferencing app allows users to conduct virtual meetings seamlessly. It supports creating and joining video calls, enabling multiple participants to communicate in real-time. "
+              technologies={["Tailwind", "Next.js", "TypeScript", "Stream.io"]}
+              href="https://video-conference-app-orcin.vercel.app/"
+          />
+          <ProjectCard
+              src="/slang.png"
+              title="Slang Digital Marketing"
+              description="Slang is a Yangon-based digital marketing agency established in 2018, relaunched in 2021 to enhance services for SMEs. They specialize in social media marketing, digital advertising, branding, and content creation"
+              technologies={["Next.js", "Boostrap", "SASS", "FramerMotion"]}
+              href="https://www.slangdigital.co/"
+          />
+          {/* <ProjectCard
+              src="/ecommerce.jpeg"
+              title="Smart Life"
+              description="Smart Life's website is a comprehensive platform catering to the diverse needs of modern living. Our extensive catalog offers an array of innovative and intelligent products."
+              technologies={["PHP", "MySQL", "Tailwind"]}
+              href="https://example.com/smart-life"
+          /> */}
+          {/* <ProjectCard
+              src="/iphone15.png"
+              title="iPhone 15 Pro"
+              description="Explore the cutting-edge innovation of the iPhone 15 Pro. Crafted with precision, the iPhone 15 Pro combines state-of-the-art technology with an elegant design, making it the pinnacle of modern smartphones."
+              technologies={["React.js", "Three.js", "Tailwind", "GSAP"]}
+              href="https://apple-website-two-smoky.vercel.app/"
+          /> */}
+          {/* https://video-conference-app-orcin.vercel.app/ */}
         </div>
       </div>
   );
