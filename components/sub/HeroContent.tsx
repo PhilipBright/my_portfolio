@@ -58,8 +58,8 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 p-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          href="/SawKaungSetHein.pdf" // Replace with the actual path to the resume file
-          download="SawKaungSetHein.pdf" // Name of the file to be downloaded
+          href="/SawKaungSetHeinResume.pdf" // Replace with the actual path to the resume file
+          download="SawKaungSetHeinResume.pdf" // Name of the file to be downloaded
         >
           Download Resume
         </motion.a>
