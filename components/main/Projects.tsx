@@ -19,6 +19,13 @@ const Projects = () => {
         </h1>
         <div className="h-full w-full flex flex-col md:flex-row gap-5 px-8 z-40">
           <ProjectCard
+    src="/lsm.png"
+    title="LSM Audio Denoising Pipeline"
+    description="A Liquid State Machine audio denoising pipeline built using reservoir computing principles. Implements STDP-based learning with a spiking neural network reservoir to process and reconstruct clean audio from noisy input signals."
+    technologies={["Python", "NEST", "NumPy", "SciPy", "LSM"]}
+    href=""
+/>
+          <ProjectCard
               src="/ainu.png"
               title="Ainu-Sushi Kriftel"
               description="The Ainu-Sushi Kriftel, an e-commerce platform dedicated to sushi and Asian cuisine. It allows users to create accounts, place food orders, and select between COD or Pick-up options, ensuring a smooth and convenient experience."
@@ -32,13 +39,7 @@ const Projects = () => {
               technologies={["React", "Redux","Express","MongoDB", "Javascript", "Tailwind"]}
               href="https://example.com/chillflix"
           />
-          <ProjectCard
-              src="/notion.png"
-              title="Space Themed Website"
-              description="Ainu-Sushi Kriftel, an e-commerce platform dedicated to sushi and Asian cuisine. It allows users to create accounts, place food orders, and select between COD or Pick-up options, ensuring a smooth and convenient experience."
-              technologies={["Prisma", "Next.js", "TypeScript", "Supabase", "Tailwind", "Zod"]}
-              href="https://example.com/space-themed-website"
-          />
+         
         </div>
         <div className="h-full w-full">
           <div className="flex flex-col gap-5 md:flex-row m-10 px-8 py-4 border border-[#2A0E61] rounded-lg"> 
@@ -107,6 +108,13 @@ const Projects = () => {
               description="Slang is a Yangon-based digital marketing agency established in 2018, relaunched in 2021 to enhance services for SMEs. They specialize in social media marketing, digital advertising, branding, and content creation"
               technologies={["Next.js", "Boostrap", "SASS", "FramerMotion"]}
               href="https://www.slangdigital.co/"
+          />
+           <ProjectCard
+              src="/notion.png"
+              title="Space Themed Website"
+              description="Ainu-Sushi Kriftel, an e-commerce platform dedicated to sushi and Asian cuisine. It allows users to create accounts, place food orders, and select between COD or Pick-up options, ensuring a smooth and convenient experience."
+              technologies={["Prisma", "Next.js", "TypeScript", "Supabase", "Tailwind", "Zod"]}
+              href="https://example.com/space-themed-website"
           />
           {/* <ProjectCard
               src="/ecommerce.jpeg"

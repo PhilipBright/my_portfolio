@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Saw Kaung Set Hein Fullstack Developer
+            MSc AI Student & Fullstack Developer
           </h1>
         </motion.div>
 
@@ -33,12 +33,12 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-          Curating  
+            Building
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              Exceptional{" "}
+              Intelligent{" "}
             </span>
-            Project Experiences
+            Digital Experiences
           </span>
         </motion.div>
 
@@ -46,25 +46,26 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I am a web developer graduated from Edinburgh Napier Unviersity of UK. I am very interested in full-stack Development, artificial intelligence and everything in between. If you need any project, just contact me and I would love to make it for you.
+          I&apos;m Saw Kaung Set Hein (Philip), an MSc Artificial Intelligence student at Nottingham Trent University with a BSc in Computing from Edinburgh Napier University and 3+ years of full-stack development experience. Founder of Devnoverse, currently building with React Native at Kewordal. Passionate about AI, full-stack engineering, and everything in between.
         </motion.p>
-        <div className="flex">
-<motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 p-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] mr-4"
-        >
-          Contact Email
-        </motion.a>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 p-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          href="/SawKaungSetHeinResume.pdf" // Replace with the actual path to the resume file
-          download="SawKaungSetHeinResume.pdf" // Name of the file to be downloaded
-        >
-          Download Resume
-        </motion.a>
-</div>
 
+        <div className="flex">
+          <motion.a
+            variants={slideInFromLeft(1)}
+            className="py-2 p-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] mr-4"
+            href="mailto:sawkaungsethein123@gmail.com"
+          >
+            Contact Me
+          </motion.a>
+          <motion.a
+            variants={slideInFromLeft(1)}
+            className="py-2 p-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+            href="/SawKaungSetHeinResume.pdf"
+            download="SawKaungSetHeinResume.pdf"
+          >
+            Download Resume
+          </motion.a>
+        </div>
       </div>
 
       <motion.div
