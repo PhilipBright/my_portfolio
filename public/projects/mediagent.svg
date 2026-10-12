@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#5B6B86"/>
+  </marker>
+</defs>
+<rect width="1200" height="675" fill="#0B1220"/>
+<text x="60" y="68" fill="#E6ECF5" font-size="28" font-weight="600">MediAgent</text>
+<text x="60" y="98" fill="#8A9BB5" font-size="16">Six Claude agents for symptom-based differential diagnosis</text>
+<rect x="60" y="124" width="300" height="44" rx="22" fill="#131C2E" stroke="#2A3A57" stroke-width="1.5"/>
+<text x="210" y="152" fill="#E6ECF5" font-size="15" font-weight="500" text-anchor="middle">Symptoms described in plain text</text>
+<line x1="210" y1="168" x2="210" y2="196" stroke="#5B6B86" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="60" y="198" width="1090" height="56" rx="10" fill="#131C2E" stroke="#4F8CFF" stroke-width="1.5"/>
+<text x="84" y="232" fill="#E6ECF5" font-size="18" font-weight="600" text-anchor="start">Orchestrator</text>
+<text x="1126" y="232" fill="#8A9BB5" font-size="14" font-weight="400" text-anchor="end">Any agent can be switched off for ablation experiments</text>
+<line x1="140.0" y1="254" x2="140.0" y2="300" stroke="#5B6B86" stroke-width="1.5"/>
+<circle cx="140.0" cy="277" r="5" fill="#0B1220" stroke="#4F8CFF" stroke-width="1.5"/>
+<rect x="60" y="300" width="160" height="124" rx="12" fill="#131C2E" stroke="#2A3A57" stroke-width="1.5"/>
+<text x="140.0" y="340" fill="#E6ECF5" font-size="16" font-weight="600" text-anchor="middle">Symptom</text>
+<text x="140.0" y="361" fill="#E6ECF5" font-size="16" font-weight="600" text-anchor="middle">extraction</text>
+<text x="140.0" y="402" fill="#8A9BB5" font-size="13" font-weight="400" text-anchor="middle">Claude Haiku</text>
+<line x1="222" y1="362.0" x2="244" y2="362.0" stroke="#5B6B86" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="326.0" y1="254" x2="326.0" y2="300" stroke="#5B6B86" stroke-width="1.5"/>
+<circle cx="326.0" cy="277" r="5" fill="#0B1220" stroke="#4F8CFF" stroke-width="1.5"/>
+<rect x="246" y="300" width="160" height="124" rx="12" fill="#131C2E" stroke="#2A3A57" stroke-width="1.5"/>
+<text x="326.0" y="340" fill="#E6ECF5" font-size="16" font-weight="600" text-anchor="middle">Medical</text>
+<text x="326.0" y="361" fill="#E6ECF5" font-size="16" font-weight="600" text-anchor="middle">history</text>
+<text x="326.0" y="402" fill="#8A9BB5" font-size="13" font-weight="400" text-anchor="middle">Claude Haiku</text>
+<line x1="408" y1="362.0" x2="430" y2="362.0" stroke="#5B6B86" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="512.0" y1="254" x2="512.0" y2="300" stroke="#5B6B86" stroke-width="1.5"/>
+<circle cx="512.0" cy="277" r="5" fill="#0B1220" stroke="#4F8CFF" stroke-width="1.5"/>
+<rect x="432" y="300" width="160" height="124" rx="12" fill="#131C2E" stroke="#4F8CFF" stroke-width="2"/>
+<text x="512.0" y="352" fill="#E6ECF5" font-size="16" font-weight="600" text-anchor="middle">Reasoning</text>
+<text x="512.0" y="390" fill="#4F8CFF" font-size="13" font-weight="500" text-anchor="middle">Claude Sonnet</text>
+<text x="512.0" y="409" fill="#8A9BB5" font-size="12" font-weight="400" text-anchor="middle">self-consistency voting</text>
+<line x1="594" y1="362.0" x2="616" y2="362.0" stroke="#5B6B86" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="698.0" y1="254" x2="698.0" y2="300" stroke="#5B6B86" stroke-width="1.5"/>
+<circle cx="698.0" cy="277" r="5" fill="#0B1220" stroke="#4F8CFF" stroke-width="1.5"/>
+<rect x="618" y="300" width="160" height="124" rx="12" fill="#131C2E" stroke="#2A3A57" stroke-width="1.5"/>
+<text x="698.0" y="352" fill="#E6ECF5" font-size="16" font-weight="600" text-anchor="middle">Verification</text>
+<text x="698.0" y="402" fill="#8A9BB5" font-size="13" font-weight="400" text-anchor="middle">Claude Haiku + RAG</text>
+<line x1="780" y1="362.0" x2="802" y2="362.0" stroke="#5B6B86" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="884.0" y1="254" x2="884.0" y2="300" stroke="#5B6B86" stroke-width="1.5"/>
+<circle cx="884.0" cy="277" r="5" fill="#0B1220" stroke="#4F8CFF" stroke-width="1.5"/>
+<rect x="804" y="300" width="160" height="124" rx="12" fill="#131C2E" stroke="#2A3A57" stroke-width="1.5"/>
+<text x="884.0" y="340" fill="#E6ECF5" font-size="16" font-weight="600" text-anchor="middle">Safety</text>
+<text x="884.0" y="361" fill="#E6ECF5" font-size="16" font-weight="600" text-anchor="middle">triage</text>
+<text x="884.0" y="402" fill="#8A9BB5" font-size="13" font-weight="400" text-anchor="middle">Claude Haiku</text>
+<line x1="966" y1="362.0" x2="988" y2="362.0" stroke="#5B6B86" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1070.0" y1="254" x2="1070.0" y2="300" stroke="#5B6B86" stroke-width="1.5"/>
+<circle cx="1070.0" cy="277" r="5" fill="#0B1220" stroke="#4F8CFF" stroke-width="1.5"/>
+<rect x="990" y="300" width="160" height="124" rx="12" fill="#131C2E" stroke="#2A3A57" stroke-width="1.5"/>
+<text x="1070.0" y="352" fill="#E6ECF5" font-size="16" font-weight="600" text-anchor="middle">Explanation</text>
+<text x="1070.0" y="402" fill="#8A9BB5" font-size="13" font-weight="400" text-anchor="middle">Claude Haiku</text>
+<line x1="698.0" y1="424" x2="698.0" y2="478" stroke="#34C3A0" stroke-width="1.5" stroke-dasharray="5 5"/>
+<path d="M623.0,492 v64 a75.0,10 0 0 0 150,0 v-64" fill="#131C2E" stroke="#34C3A0" stroke-width="1.5"/>
+<ellipse cx="698.0" cy="492" rx="75.0" ry="10" fill="#131C2E" stroke="#34C3A0" stroke-width="1.5"/>
+<text x="698.0" y="526" fill="#E6ECF5" font-size="14" font-weight="500" text-anchor="middle">Medical knowledge</text>
+<text x="698.0" y="545" fill="#8A9BB5" font-size="13" font-weight="400" text-anchor="middle">retrieval store</text>
+<line x1="1070.0" y1="426" x2="1070.0" y2="478" stroke="#5B6B86" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="870" y="480" width="280" height="100" rx="12" fill="#131C2E" stroke="#4F8CFF" stroke-width="1.5"/>
+<text x="1010" y="518" fill="#E6ECF5" font-size="16" font-weight="600" text-anchor="middle">Ranked differential diagnosis</text>
+<text x="1010" y="542" fill="#8A9BB5" font-size="14" font-weight="400" text-anchor="middle">with urgency level and a</text>
+<text x="1010" y="561" fill="#8A9BB5" font-size="14" font-weight="400" text-anchor="middle">plain-language explanation</text>
+<text x="60" y="632" fill="#8A9BB5" font-size="14" font-weight="400" text-anchor="start">Evaluated on the DDXPlus benchmark. Python, FastAPI, PostgreSQL, Next.js.</text>
+</svg>

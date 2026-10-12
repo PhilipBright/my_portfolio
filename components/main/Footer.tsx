@@ -64,7 +64,7 @@ const Footer = () => {
             </div> */}
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; Saw Kaung Set Hein Dev 2023 Inc. All rights reserved
+                &copy; {new Date().getFullYear()} Saw Kaung Set Hein
             </div>
         </div>
     </div>
