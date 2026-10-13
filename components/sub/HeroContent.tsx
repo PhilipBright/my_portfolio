@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            MSc AI Student & Fullstack Developer
+            Saw Kaung Set Hein (Philip)
           </h1>
         </motion.div>
 
@@ -33,21 +33,31 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Building
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              {" "}
-              Intelligent{" "}
-            </span>
-            Digital Experiences
+              AI Engineer
+            </span>{" "}
+            & Full-Stack Developer
           </span>
         </motion.div>
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-xl text-gray-200 max-w-[600px]"
         >
-          I&apos;m Saw Kaung Set Hein (Philip), an MSc Artificial Intelligence student at Nottingham Trent University with a BSc in Computing from Edinburgh Napier University and 3+ years of full-stack development experience. Founder of Devnoverse, currently building with React Native at Kewordal. Passionate about AI, full-stack engineering, and everything in between.
+          I build LLM agent systems and the full-stack products around them.
         </motion.p>
+
+        <motion.div
+          variants={slideInFromLeft(0.8)}
+          className="flex flex-col gap-4 text-lg text-gray-400 mb-5 max-w-[600px]"
+        >
+          <p>
+            I&apos;m Saw Kaung Set Hein (Philip), an AI engineer and full-stack developer. I hold an MSc in Artificial Intelligence from Nottingham Trent University and a BSc in Computing from Edinburgh Napier University, where I graduated with a First Class degree with Distinction.
+          </p>
+          <p>
+            I have 3+ years of experience building web and mobile products for clients in Myanmar, Germany and the UK, and I founded the web agency Devnoverse. Lately my focus is LLM agents: my MSc dissertation, MediAgent, is a multi-agent system for medical differential diagnosis built on the Claude API.
+          </p>
+        </motion.div>
 
         <div className="flex">
           <motion.a
@@ -55,16 +65,16 @@ const HeroContent = () => {
             className="py-2 p-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] mr-4"
             href="mailto:sawkaungsethein123@gmail.com"
           >
-            Contact Me
+            Contact me
           </motion.a>
-          <motion.a
+          {/* <motion.a
             variants={slideInFromLeft(1)}
             className="py-2 p-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
             href="/SawKaungSetHeinResume.pdf"
             download="SawKaungSetHeinResume.pdf"
           >
-            Download Resume
-          </motion.a>
+            Download resume
+          </motion.a> */}
         </div>
       </div>
 

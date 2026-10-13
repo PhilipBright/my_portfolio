@@ -50,42 +50,42 @@ const ExperienceTimeline = () => {
   );
 
   return (
-    <div className='w-full h-full flex flex-col justify-center items-center mt-48'>
+    <div className='w-full h-full flex flex-col justify-center items-center mt-48' id="experience">
       <div>
         <h1 className='text-white text-6xl font-bold mb-16'>Work <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> Experience </span></h1>
       </div>
       <div className="space-y-8 w-[70%] items-center relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
 
-        {/* Global Choice */}
+        {/* Kewordal */}
         <div ref={ref1}>
           <motion.div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active" variants={variants} initial="hidden" animate={controls1}>
             {dot}
             <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[#1d1836] p-4 rounded border border-slate-200 shadow z-20">
               <div className="flex items-center justify-between space-x-2 mb-1">
                 <div className="font-bold md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                  <Link href="https://global-choice.vercel.app/">Global Choice</Link>
+                  Kewordal
                 </div>
-                <time className="font-caveat font-medium text-green-300">August 2022</time>
+                <time className="font-caveat font-medium text-green-300">Oct 2025 – Apr 2026</time>
               </div>
-              <div className='text-white font-bold'><h1>Front-End Developer</h1></div>
-              <div className="text-blue-200">Frontend lead specializing in ReactJS. Collaborated across teams, built reusable components for seamless integration, and maintained code quality through constructive reviews.</div>
+              <div className='text-white font-bold'><h1>React Native Developer</h1></div>
+              <div className="text-blue-200">Built and maintained cross-platform mobile features for a UK EdTech company.</div>
             </div>
           </motion.div>
         </div>
 
-        {/* Ainu Sushi */}
+        {/* Devnoverse */}
         <div ref={ref2}>
           <motion.div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row group is-active" variants={variants} initial="hidden" animate={controls2}>
             {dot}
             <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[#1d1836] p-4 rounded border border-slate-200 shadow z-20">
               <div className="flex items-center justify-between space-x-2 mb-1">
                 <div className="font-bold md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                  <Link href='https://ainu-sushi-kriftel.com/'>Ainu-Sushi Kriftel</Link>
+                  Devnoverse
                 </div>
-                <time className="font-caveat font-medium text-green-300">January 2023</time>
+                <time className="font-caveat font-medium text-green-300">Dec 2023 – Present</time>
               </div>
-              <div className='text-white font-bold'><h1>Full-Stack Developer</h1></div>
-              <div className="text-blue-200">Led development of secure, high-performance web apps using Laravel. Implemented encryption, optimised performance with caching, and excelled in complex code debugging.</div>
+              <div className='text-white font-bold'><h1>Founder & Full-Stack Developer</h1></div>
+              <div className="text-blue-200">Founded a web development agency and delivered end-to-end websites for clients, handling design, frontend and backend.</div>
             </div>
           </motion.div>
         </div>
@@ -96,42 +96,48 @@ const ExperienceTimeline = () => {
             {dot}
             <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[#1d1836] p-4 rounded border border-slate-200 shadow z-20">
               <div className="flex items-center justify-between space-x-2 mb-1">
-                <div className="font-bold md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">My Way Travel & Tour</div>
-                <time className="font-caveat font-medium text-green-300">June 2023</time>
+                <div className="font-bold md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                  My Way Travel & Tour
+                </div>
+                <time className="font-caveat font-medium text-green-300">Oct 2023 – Oct 2025</time>
               </div>
               <div className='text-white font-bold'><h1>Full-Stack Developer</h1></div>
-              <div className="text-blue-200">Utilised Next.js for dynamic, high-performance web development. Improved site speed, SEO, and UX through collaborative feature integration and optimised page load times.</div>
+              <div className="text-blue-200">Built the company&apos;s booking site in Next.js and improved page speed, SEO and user experience.</div>
             </div>
           </motion.div>
         </div>
 
-        {/* Devnoverse */}
+        {/* Ainu Sushi */}
         <div ref={ref4}>
           <motion.div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row group is-active" variants={variants} initial="hidden" animate={controls4}>
             {dot}
             <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[#1d1836] p-4 rounded border border-slate-200 shadow z-20">
               <div className="flex items-center justify-between space-x-2 mb-1">
-                <div className="font-bold md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Devnoverse</div>
-                <time className="font-caveat font-medium text-green-300">December 2023</time>
+                <div className="font-bold md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                  <Link href='https://ainu-sushi-kriftel.com/'>Ainu-Sushi Kriftel</Link>
+                </div>
+                <time className="font-caveat font-medium text-green-300">Jun 2023 – Oct 2025</time>
               </div>
-              <div className='text-white font-bold'><h1>Founder & Full-Stack Developer</h1></div>
-              <div className="text-blue-200">Founded Devnoverse, a web development agency delivering end-to-end solutions. Architect intuitive frontends and robust backends across the full stack, driving client-centric results.</div>
+              <div className='text-white font-bold'><h1>Full-Stack Developer</h1></div>
+              <div className="text-blue-200">Built a secure ordering platform in Laravel, with encryption for user data and caching for performance.</div>
             </div>
           </motion.div>
         </div>
 
-        {/* Kewordal */}
+        {/* Global Choice */}
         <div ref={ref5}>
           <motion.div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active" variants={variants} initial="hidden" animate={controls5}>
             {dot}
             <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[#1d1836] p-4 rounded border border-slate-200 shadow z-20">
               <div className="flex items-center justify-between space-x-2 mb-1">
-                <div className="font-bold md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Kewordal</div>
-                <time className="font-caveat font-medium text-green-300">Present</time>
+                <div className="font-bold md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                  <Link href="https://global-choice.vercel.app/">Global Choice</Link>
+                </div>
+                <time className="font-caveat font-medium text-green-300">Aug 2022</time>
               </div>
-             <div className='text-white font-bold'><h1>React Native Developer</h1></div>
-<div className="text-blue-200">React Native developer at Kewordal, a UK EdTech company. Building and maintaining cross-platform mobile features while pursuing my MSc in Artificial Intelligence at Nottingham Trent University.</div>
-</div>
+              <div className='text-white font-bold'><h1>Front-End Developer</h1></div>
+              <div className="text-blue-200">Led frontend development in React, building reusable components and reviewing code across the team.</div>
+            </div>
           </motion.div>
         </div>
 

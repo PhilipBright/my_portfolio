@@ -9,8 +9,9 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Saw Kaung Set Hein",
-  description: "This is my portfolio",
+  title: "Saw Kaung Set Hein | AI Engineer & Full-Stack Developer",
+  description:
+    "Saw Kaung Set Hein (Philip), AI engineer and full-stack developer. MSc in Artificial Intelligence, building LLM agent systems and full-stack products.",
 };
 
 export default function RootLayout({
