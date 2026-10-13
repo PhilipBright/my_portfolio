@@ -5,6 +5,7 @@ import Skills from "@/components/main/Skills";
 import Experience from "@/components/main/Experience";
 import Education from "@/components/main/Education";
 import Contact from "@/components/main/Contact";
+import Org from "@/components/main/Org";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       
       <div className="flex flex-col ">
         <Hero />
+        <Org/>
         <Projects />
         <Experience/>
         <Education/>
